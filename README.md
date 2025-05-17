@@ -1,9 +1,9 @@
 this is a university project
 
 Game Hub
-This is a simple game hub application that allows users to select and play different games
-including Tic Tac Toe and Chess. The application features a user-friendly interface with options
-to change game difficulty and toggle between light and dark themes
+Is a simple app that allows users to select and play multiple games including Tic Tac Toe and Chess.
+the app features a friendly user interface with the ability to change between difficulties: easy, medium, hard and party mode to play with a friend.
+You can switch between dark and light mode for easier navigation.
 
 Worked on this project:
 Qusay Ikdam Alhami
