@@ -4,6 +4,8 @@ This is a simple game hub application that allows users to select and play diffe
 including Tic Tac Toe and Chess. The application features a user-friendly interface with options
 to change game difficulty and toggle between light and dark themes
 
+** You can add a game just by adding its name to the ganeName array and adding the action listiner to the button
+
 Students:
 Qusay Ikdam Alhami 2023901127
 Jafar 2023901077
@@ -15,8 +17,8 @@ import java.util.Objects;
 
 public class Main { // the amin class
 
-    private static final int numOfGames = 2; // number of games
     private static final String[] gameName = {"Tic Tac Toe", "Chess"}; // names of the games
+    private static final int numOfGames = gameName.length; // number of games
 
     private static final String[] difficulties = {"Easy", "Medium", "Hard", "Party"}; // difficulty levels
     private static int currentDifficultyIndex = 0; // current difficulty index
