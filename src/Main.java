@@ -4,8 +4,7 @@ This is a simple game hub application that allows users to select and play diffe
 including Tic Tac Toe and Chess. The application features a user-friendly interface with options
 to change game difficulty and toggle between light and dark themes
 
-** You can add a game just by adding its name to the ganeName array and adding the action listiner to the button
-
+** You can add a game just by adding its name to the ganeName array and adding the action listiner to the button, and do not forget its image in the media folder
 Students:
 Qusay Ikdam Alhami 2023901127
 Jafar 2023901077
