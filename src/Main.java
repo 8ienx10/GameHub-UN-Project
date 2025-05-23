@@ -5,10 +5,9 @@ including Tic Tac Toe and Chess. The application features a user-friendly interf
 to change game difficulty and toggle between light and dark themes
 
 ** You can add a game just by adding its name to the ganeName array and adding the action listiner to the button, and do not forget its image in the media folder
-Students:
-Qusay Ikdam Alhami 2023901127
-Jafar 2023901077
-abdullah 2021901035
+
+Worked on this projecy
+Qusay Ikdam Alham
  */
 import javax.swing.*; //importing some libraries
 import java.awt.*;
@@ -23,7 +22,6 @@ public class Main { // the amin class
     private static int currentDifficultyIndex = 0; // current difficulty index
     private static boolean partyMode = false; // party mode flag
     private static boolean darkThemeOn = true; // dark theme flag
-    private static boolean firstRun = true; // first run flag
 
     private static JFrame frame; // main frame
     private static JPanel mainPanel; // main panel
@@ -41,12 +39,6 @@ public class Main { // the amin class
         optionsPanel = new JPanel(); // creating a new panel for options
         difficultyButton = new JButton(); // difficulty button
         themeButton = new JButton(); // theme button
-
-        if (firstRun) { // if it's the first run, show the message
-            JOptionPane.showMessageDialog(null, "Qusay Ikdam Alhami 2023901127\nJafar 2023901077\nabdullah 2021901035"); // show message
-            firstRun = false; // set first run to false
-        }
-
 
         MainUI(); // call the main UI method
         frame.setVisible(true); // set the frame visible
